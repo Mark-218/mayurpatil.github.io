@@ -1,0 +1,139 @@
+
+@media (max-width:540px){
+    .header .m-logo{
+        font-size: 24px;
+        letter-spacing: 2.75px; 
+        
+    }
+
+    .header .m-menu{
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        letter-spacing: 1.50px;
+    }
+    .header .m-menu:hover{
+        font-size: 17px;
+       
+    }
+
+    .main-text{
+        font-size: 2.7rem;
+    }
+
+    .m-heading{
+       font-size: 44px;
+    }
+
+  
+
+    .sub-text{
+        font-size: 1.7rem;
+    }
+
+    .parallax{
+        min-height: 80px;
+    }
+
+    .sub-design{
+        margin-top: 0;
+     }
+
+     .s-s-heading{
+
+        font-size: 19px;
+       
+    }
+    
+    .p-edit{
+        font-size: 15.5px;
+       
+    }
+    .robo-sub-text{
+        font-size: 18px;
+
+    }
+
+    .cont{
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .form-edit{
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif; 
+    }
+
+  
+ 
+}
+
+
+
+
+
+
+@media (max-width:360px){
+   
+    
+    .header .m-logo{
+        font-size: 22px;
+        letter-spacing: 2.5px; 
+        
+    }
+
+    .header .m-menu{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1.25px;
+    }
+    .header .m-menu:hover{
+        font-size: 16px;
+       
+    }
+
+    .m-heading{
+       font-size: 36px;
+    }
+
+      
+    .main-text{
+        font-size: 2rem;
+    }
+
+    .sub-text{
+        font-size: 1.4rem;
+    }
+
+    .parallax{
+        min-height: 60px;
+    }
+
+    .sub-design{
+        margin-top: 0;
+     }
+
+     .s-s-heading{
+
+        font-size: 16px;
+       
+    }
+    
+    .p-edit{
+        font-size: 14px;
+       
+    }
+    .robo-sub-text{
+        font-size: 16px;
+
+    }
+
+    .cont{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .form-edit{
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif; 
+    }
+}

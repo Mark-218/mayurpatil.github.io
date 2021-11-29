@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+
+/* Header Design */
+
+.header nav{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+
+nav{
+    position: sticky;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    background-color:#f2f2f2;
+}
+
+.header .m-logo{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding-left: 50px;
+    
+}
+
+.header .m-menu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #0033cc;
+}
+
+.header .m-menu:hover{
+    font-size: 20px;
+    padding-bottom: 3px;
+    text-decoration: 2px underline #0033cc;
+
+   
+}
+
+/* background image CSS  */
+
+.back-img { 
+
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/img/back.jpg");
+	height: 90vh;
+	width: 100vw;
+    background-size: cover;
+    background-position: cover;
+    overflow: hidden;
+    background-repeat: 0;
+
+}
+
+.text-slider-items {
+    display: none;
+    color: white;
+    z-index: 10;
+    
+
+}
+
+/* background text code */
+
+.main-text{
+
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: relative;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 3.7rem;
+	letter-spacing: 2px;
+    word-spacing: 2px;
+  font-family: 'roboto', sans-serif;
+
+
+}
+
+
+.sub-text{
+	
+	display: flex;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	justify-content: center;
+	position: relative;
+	font-weight: 600;
+	color: white;
+	font-size: 2.3rem;
+}
+
+#spin{
+	color: white;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+	font-family: 'Chewy', cursive;
+
+
+}
+#spin:after {
+  content:"";
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+ 0%{content: "Web Devloper";}
+	20%{content:"Software Engg";}
+	40%{content:"Collage Studant";}
+   60%{content:"Blogger";}
+   80%{content:"Traveler ";}
+   100%{content:"Cricket";}
+}
+
+
+
+/* About */
+
+.about_img{
+ width: 100%;
+ max-width: 500px;
+ height: auto;
+}
+
+.m-heading{
+    font-family: 'Petemoss', cursive ;
+    font-weight: 900; 
+    font-size: 60px;
+    color:  #e6e6e6;
+    text-decoration: underline;
+    -webkit-text-decoration-color:#ff0066;
+    text-decoration-color: #ff0066;
+    -webkit-text-decoration-style: wavy;
+     text-decoration-style: wavy;
+      
+}
+
+.about_heading{
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: Mulish;
+  color: blueviolet;
+  padding: 3px 2px;
+
+}
+
+.about_description{
+    font-size: 20px;
+
+}
+
+.about_description_sp{
+   font-size: 28px;
+   color: blueviolet;
+   font-weight: 600;
+   
+}
+
+/* Education */
+
+.m-s-heading{
+    font-family: 'Petemoss', cursive ;
+    background-color: #e6e6e6;
+    font-weight: 700; 
+    font-size: 40px;
+    color: #0033cc;
+    text-decoration: underline;
+    -webkit-text-decoration-color:#ff0066;
+    text-decoration-color: #ff0066;
+    -webkit-text-decoration-style: wavy;
+     text-decoration-style: wavy;
+}
+
+
+
+
+.marks_right{
+    display: block;
+    text-align: right;
+    color: #003300;
+    font-size: 22px;
+}
+
+.m_details{
+    color: black;
+}
+
+.sub_details{
+    font-size: 18px;
+}
+
+.robo-sub-text{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+/* image parallax effect */
+.parallax {
+    /* The image used */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/img/backeffect.png");
+  
+    /* Set a specific height */
+    min-height: 100px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* educuation and expertise */
+
+  .s-s-heading{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e6e6;
+    font-weight: 500; 
+    font-size: 21px;
+    color: #0033cc;
+   
+}
+
+.p-edit{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.sub-design{
+   margin-top: 30px;
+}
+
+/* projects & certifications  */
+
+.pro-img-fix{
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cerficate_back{
+  background-color: #cce6ff ; 
+}
+
+.course_name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.course_rigth{
+    display: block;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 17px;
+    color: #0033cc;
+}
+
+
+/* contact */
+
+.cont{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.cont ul li {
+	list-style: none;
+	margin-top: 20px;
+}
+
+
+.ino {
+	margin-top: 20px;
+}
+
+.ed{
+	background-color: black;
+    
+    color: white;
+}
+
+.form-edit{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; 
+}
