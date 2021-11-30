@@ -39,10 +39,10 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand m-logo " href="#">Mayur Patil</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class=" collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto pr-5 ">
             <a class="nav-link active m-menu" aria-current="page" href="index.html">Home</a>
@@ -362,34 +362,34 @@
     
       </div>
       <div class="col-md my-3 form-edit">
-        <form action="mailto:mayurpatilofficail10@gmail.com?subject=&cc=&bcc=&body=" method="post" enctype="text/plain" id="contactForm">
+        <form   action="https://formspree.io/f/xqknzyev" method="POST" id="contactForm">
 
           <!-- Name input -->
           <div class="mb-3 my-2">
             <label class="form-label" for="name">Name : </label>
-            <input class="form-control" id="name" type="text" placeholder="Name" />
+            <input class="form-control" name="_subject" id="name" type="text" placeholder="Name" required />
           </div>
       
           <!-- Email address input -->
           <div class="mb-3">
             <label class="form-label" for="emailAddress">Email Address : </label>
-            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+            <input class="form-control" id="emailAddress" name="_replyto" type="email" placeholder="Email Address"  required  />
           </div>
       
           <!-- Message input -->
           <div class="mb-3">
             <label class="form-label" for="message">Message : </label>
-            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 9rem;"></textarea>
+            <textarea class="form-control" id="message" name="massage" type="text" placeholder="Message"  required  style="height: 9rem;" ></textarea>
           </div>
       
           <!-- Form submit button -->
           <div class="d-grid">
-            <button class="btn btn-primary btn-lg" type="submit">Send</button>
+            <button class="btn btn-primary btn-lg" name="submit" type="submit" value="Send"  required > Send</button>
           </div>
       
         </form>
       </div>
-    </div>
+    </kmkkdiv>
   </div>
 </div>
 
